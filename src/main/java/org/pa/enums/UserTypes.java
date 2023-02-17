@@ -1,2 +1,6 @@
-package org.pa.enums;public enum UserTypes {
+package org.pa.enums;
+
+public enum UserTypes {
+    Local,
+    Student
 }

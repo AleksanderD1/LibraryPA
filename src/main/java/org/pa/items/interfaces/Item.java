@@ -1,7 +1,9 @@
-package org.pa.items;
+package org.pa.items.interfaces;
+
+import org.pa.users.UserImpl;
 
 public interface Item {
 
-    Item borrowItem(Item item);
-    void returnItem(Item item);
+    void borrowItem(UserImpl user);
+    void returnItem();
 }

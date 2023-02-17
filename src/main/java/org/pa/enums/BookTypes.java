@@ -1,2 +1,7 @@
-package org.pa.enums;public enum BookTypes {
+package org.pa.enums;
+
+public enum BookTypes {
+    Novel,
+    Textbooks,
+    Encyclopedias
 }
